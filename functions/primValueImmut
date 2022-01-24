@@ -1,0 +1,5 @@
+let person = 'Ernold'
+
+person[0] = 'A' 
+
+console.log(person) // output: Ernold

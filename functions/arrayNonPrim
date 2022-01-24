@@ -1,0 +1,5 @@
+let peopleList = ['Arnold', 'Linda', 'Sylvester', 'Dolph']
+
+peopleList[0] = 'Jean-Claude'
+
+console.log(peopleList) //[ 'Jean-Claude', 'Linda', 'Sylvester', 'Dolph' ]
