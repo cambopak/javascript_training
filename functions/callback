@@ -1,0 +1,6 @@
+let array = [1, 2, 3];
+array.forEach(function(num) {
+  console.log(num); // on first iteration  => 1
+                    // on second iteration => 2
+                    // on third iteration  => 3
+}); // returns `undefined`
