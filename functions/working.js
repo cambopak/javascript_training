@@ -1,7 +1,5 @@
-let speed = 0;
-let acceleration = 24;
-let brakingForce = 19;
+function sum(num1, num2) {
+    return num1 + num2;
+}
 
-let isMoving = brakingForce < acceleration && (speed > 0 || acceleration > 0);
-
-console.log(isMoving);
+console.log(sum(22, 10)); // 32
