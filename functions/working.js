@@ -1,7 +1,7 @@
-let sale = true;
-let admissionPrice = !sale ? 5.25 : 3.99;
+let speed = 0;
+let acceleration = 24;
+let brakingForce = 19;
 
-console.log('$' + admissionPrice);
+let isMoving = brakingForce < acceleration && (speed > 0 || acceleration > 0);
 
-
-$3.99
+console.log(isMoving);
